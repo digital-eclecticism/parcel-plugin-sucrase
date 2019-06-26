@@ -1,0 +1,34 @@
+{
+  "name": "parcel-plugin-sucrase",
+  "version": "1.0.0",
+  "description": "sucrase plugin for parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-eclecticism/parcel-plugin-sucrase.git"
+  },
+  "keywords": [
+    "sucrase",
+    "parcel",
+    "parcel-bundler",
+    "pundler",
+    "babel"
+  ],
+  "author": "Kent Utterback",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digital-eclecticism/parcel-plugin-sucrase/issues"
+  },
+  "homepage": "https://github.com/digital-eclecticism/parcel-plugin-sucrase#readme",
+  "peerDependencies": {
+    "sucrase": "^3",
+    "parcel-bundler": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sucrase": "^3.10.1"
+  }
+}
