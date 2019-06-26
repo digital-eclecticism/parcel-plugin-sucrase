@@ -4,7 +4,8 @@
   "description": "sucrase plugin for parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install sucrase --save-dev"
   },
   "repository": {
     "type": "git",
