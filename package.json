@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-sucrase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sucrase plugin for parcel",
   "main": "index.js",
   "scripts": {
