@@ -1,1 +1,1 @@
-# parcel-plugin-babel
+# parcel-plugin-sucrase
