@@ -4,5 +4,5 @@ In preparation for Parcel v2 moving to more of a plugin style and dropping Babel
 
 ## Resources
 
-* (Parcel)[https://parceljs.org/]
-* (Sucrase)[https://sucrase.io/]
+* [Parcel](https://parceljs.org/)
+* [Sucrase](https://sucrase.io/)
