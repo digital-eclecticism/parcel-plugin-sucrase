@@ -1,10 +1,10 @@
 {
   "name": "parcel-plugin-sucrase",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "sucrase plugin for parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --timeout 50000"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "parcel-bundler": "^1.0.0"
   },
   "devDependencies": {
+    "mocha": "^6.1.4",
+    "parcel-assert-bundle-tree": "^1.0.0",
     "parcel-bundler": "^1.12.3",
     "sucrase": "^3.10.1"
   },
