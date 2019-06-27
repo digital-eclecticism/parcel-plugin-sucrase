@@ -1,11 +1,10 @@
 {
   "name": "parcel-plugin-sucrase",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "sucrase plugin for parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install sucrase parcel-bundler --save-dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -31,5 +30,9 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "sucrase": "^3",
+    "parcel-bundler": "^1.0.0"
   }
 }
