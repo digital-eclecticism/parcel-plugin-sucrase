@@ -1,4 +1,4 @@
-const Bundler = require('parcel-bundler')
+module.exports = function(bundler){
+    bundler.addAssetType('.js', require.resolve('./assets/SucraseAsset'))
+}
 
-let bundler = new Bundler('input.js')
-bundler.addAssetType('.js', require.resolve('./assets/SucraseAsset'))
